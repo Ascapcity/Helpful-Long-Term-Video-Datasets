@@ -1,4 +1,4 @@
-# Helpful Long-Term Video Datasets Are You Need For VLM/MLLM Reasoning
+# 📢 Helpful Long-Term Video Datasets Are You Need For VLM/MLLM Reasoning
 
 A source-linked collection for **long-term video understanding, procedural reasoning, environment-state tracking, next-step decisions, error detection, and proactive assistance** with vision-language models (VLMs) and multimodal large language models (MLLMs).
 
@@ -8,7 +8,7 @@ A source-linked collection for **long-term video understanding, procedural reaso
 
 **Source review:** October 24, 2026. **Duration audit:** October 31, 2026. Access and licensing notes retain their own review date; data availability may change. The audit used primary documents and selected metadata, not full-media measurements of every sample. Five emerging entries received an additional [publication spot check](docs/publication-checks.md) on October 31.
 
-📚 ## Browse by category
+## 📚 Browse by category
 
 | Category | Records | Main focus |
 | --- | ---: | --- |
@@ -20,14 +20,14 @@ A source-linked collection for **long-term video understanding, procedural reaso
 | [Emerging Benchmarks and Watchlist](catalog/frontier.md) | 8 | Recent egocentric reasoning, assistance, grounding, and synthetic diagnostics; access and task scope vary. |
 | [Long Video, Streaming, and Proactive Assistance](catalog/streaming.md) | 13 | Long-context memory, online understanding, causal reasoning, and timely assistance. |
 
-💡 ## How to use this resource
+## 💡 How to use this resource
 
 1. Choose a category above, or scan the complete dataset index below.
 2. Open a dataset's detailed entry for its content, qualified duration, collection size, potential applications, modalities, upstream family, access notes, caveats, and primary links.
 3. Read the [methodology and duration rules](docs/methodology.md) before comparing lengths or treating a record as benchmark-ready.
 4. Download the [JSON catalog](data/datasets.json) or [CSV table](data/datasets.csv) for your own filtering. See the [field definitions](docs/data-format.md).
 
-### Choose by the reasoning problem
+### 👉 Choose by the reasoning problem
 
 | Research question | Useful places to start | What to check |
 | --- | --- | --- |
@@ -37,13 +37,13 @@ A source-linked collection for **long-term video understanding, procedural reaso
 | What earlier evidence matters now? | [Long video and streaming](catalog/streaming.md) | Continuous recording versus memory span, query timing, and source-video overlap. |
 | When should an assistant intervene? | [Streaming and assistance](catalog/streaming.md), [emerging benchmarks](catalog/frontier.md) | Causal access to past frames, intervention timing, and access to released annotations. |
 
-### Reading the labels
+### 👉 Reading the labels
 
 **Core candidate** means promising for the target research questions; **Auxiliary** supports a component; **Comparison** provides a related baseline; **Watchlist** requires unresolved evidence or access checks. These are editorial relevance assessments, not certifications of long duration, complete labels, or download readiness. Suggested applications may require additional annotation.
 
 A **mean** is not a range; **SD** is not a min/max bound; accumulated multi-view hours are not independent execution hours. A short evaluation window is not the length of its parent recording. Unknown values and conflicting statistics are preserved in detailed entries.
 
-👋 ## Complete dataset index
+##👋 Complete dataset index
 
 Click a dataset name for its full description and primary links. The duration column is a navigation aid; the detailed entry defines the version, unit, and evidence limitations.
 
@@ -190,7 +190,7 @@ Long-context memory, online understanding, causal reasoning, and timely assistan
 | [Video-MME v1](catalog/streaming.md#video-mme) | v1 range: 11 s-1 h; derived mean ~16.93 min | Multi-domain video question answering; Short-, medium-, and long-context comparison |
 | [EgoStream (Forte, Lando, and Furnari)](catalog/streaming.md#egostream) | Video/subclip/prefix durations unknown; immediate to >8 h describes recall delay | Streaming episodic memory evaluation; Answer-validity tracking |
 
-## Contribute and maintain
+## ✨ Contribute and maintain
 
 Corrections with primary-source evidence are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the editing workflow, [data-format.md](docs/data-format.md) for the schema, and [CHANGELOG.md](CHANGELOG.md) for release notes.
 
@@ -201,7 +201,7 @@ python scripts/build_catalog.py
 python scripts/validate_catalog.py
 ```
 
-## Attribution and data rights
+## 📋 Attribution and data rights
 
 Please cite the original dataset papers and follow each provider's current terms. This repository contains catalog descriptions and source links; it does not redistribute videos, private industrial data, or full papers. Code licenses and dataset licenses can differ. Inclusion here grants no rights to the underlying media.
 
