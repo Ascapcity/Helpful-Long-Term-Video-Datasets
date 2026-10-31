@@ -43,7 +43,7 @@ A source-linked collection for **long-term video understanding, procedural reaso
 
 A **mean** is not a range; **SD** is not a min/max bound; accumulated multi-view hours are not independent execution hours. A short evaluation window is not the length of its parent recording. Unknown values and conflicting statistics are preserved in detailed entries.
 
-##👋 Complete dataset index
+## 👋 Complete dataset index
 
 Click a dataset name for its full description and primary links. The duration column is a navigation aid; the detailed entry defines the version, unit, and evidence limitations.
 
