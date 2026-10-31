@@ -8,7 +8,7 @@ A source-linked collection for **long-term video understanding, procedural reaso
 
 **Source review:** October 24, 2026. **Duration audit:** October 31, 2026. Access and licensing notes retain their own review date; data availability may change. The audit used primary documents and selected metadata, not full-media measurements of every sample. Five emerging entries received an additional [publication spot check](docs/publication-checks.md) on October 31.
 
-## Browse by category
+📚 ## Browse by category
 
 | Category | Records | Main focus |
 | --- | ---: | --- |
@@ -20,7 +20,7 @@ A source-linked collection for **long-term video understanding, procedural reaso
 | [Emerging Benchmarks and Watchlist](catalog/frontier.md) | 8 | Recent egocentric reasoning, assistance, grounding, and synthetic diagnostics; access and task scope vary. |
 | [Long Video, Streaming, and Proactive Assistance](catalog/streaming.md) | 13 | Long-context memory, online understanding, causal reasoning, and timely assistance. |
 
-## How to use this resource
+💡 ## How to use this resource
 
 1. Choose a category above, or scan the complete dataset index below.
 2. Open a dataset's detailed entry for its content, qualified duration, collection size, potential applications, modalities, upstream family, access notes, caveats, and primary links.
@@ -43,7 +43,7 @@ A source-linked collection for **long-term video understanding, procedural reaso
 
 A **mean** is not a range; **SD** is not a min/max bound; accumulated multi-view hours are not independent execution hours. A short evaluation window is not the length of its parent recording. Unknown values and conflicting statistics are preserved in detailed entries.
 
-## Complete dataset index
+👋 ## Complete dataset index
 
 Click a dataset name for its full description and primary links. The duration column is a navigation aid; the detailed entry defines the version, unit, and evidence limitations.
 
